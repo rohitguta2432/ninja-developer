@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="localhost" uuid="89e0458e-4c73-4daa-aad4-a9996fd595a4">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost/rammila</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="alpha-prod" uuid="82e56183-23d8-4c2e-8676-5f90711f9085">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-15-207-108-184.ap-south-1.compute.amazonaws.com/rammila</jdbc-url>
+    </data-source>
+  </component>
+</project>
